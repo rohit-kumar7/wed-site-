@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{ 
+
+    width: 100%;
+    background: linear-gradient(to top, rgba(221, 203, 203, 0.5)50%);
+    background-image: url(red-anime-silhouette-4s0wilic8d5ds76z.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+ 
+}
+
+
+.navbar{
+    width: max-content;
+}
+
+
+.menu{
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+    flex-basis: 12.5%;
+    list-style: none;
+    
+}
+
+.menu ul li {
+    margin: 5vh 3vw;
+    padding: 3vh 3vw;
+    transition: 0.12 ease-in-out;
+}
+
+.menu ul li:hover{
+    border: 2px solid lightcyan;
+    transform: scale(0.12);
+    border-radius: 50% 15% 50% 15%;
+
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(175, 216, 159);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out  ;
+}
+
+.menu ul li a:hover{
+    color: rgba(29, 241, 213, 0.952)
+}
+
+.search{
+
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+
+.srch{
+    margin-top: 28px;
+    font-family: 'Times New Roman';
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgba(235, 235, 21, 0.133);
+    margin-top: 35px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+
+     
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(201, 37, 37);
+    border: 2px solid rgb(216, 156, 44);
+    margin-top: 35px;
+    color: antiquewhite;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 20px;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: wheat;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 04s;
+
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.cn :hover{
+    background-color: black;
+}
+
+.content span{
+    color: brown;
+    font-size: 60px;
+}
+{
+    colgroup
+}
